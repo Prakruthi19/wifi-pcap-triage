@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+samples/*.pcap
+samples/*.pcapng
+.pytest_cache/
