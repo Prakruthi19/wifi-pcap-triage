@@ -54,7 +54,7 @@ These showed up on the first real capture and are handled:
 ```bash
 python -m venv .venv && . .venv/bin/activate      # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-bash samples/fetch.sh                              # 3 public captures from real hardware
+python samples/fetch.py                            # 3 public captures from real hardware (or: bash samples/fetch.sh)
 python -m triage samples/*.pcap                    # add --json for machine-readable output
 python -m pytest                                   # 23 tests
 ```
